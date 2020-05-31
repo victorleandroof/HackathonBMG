@@ -53,8 +53,7 @@
   background-color: #DCDDDF;
   width: 10px;
   height: 10px;
-  display: flex;
-  /* justify-content: left; */
+  display: flex;  
   align-items: flex-start;
   margin-right: 19px;
   margin-top: 10px;
