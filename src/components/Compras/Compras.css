@@ -1,0 +1,62 @@
+@import url("TabsCompras.css");
+.container {
+  font-weight: bold;
+}
+
+.center-card {
+  display: flex;
+  justify-content: center;
+  width: 100;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 95%;
+  margin-top: 50px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.valor-compra {
+  color: #F99D1C;
+  margin-top: 10px;
+}
+
+.informação {
+  text-align: left;
+  font: Regular 13px/25px Comfortaa;
+  letter-spacing: 0px;
+  color: #56F078;
+  margin-top: 10%;
+}
+
+.circulo-verde {
+  background-color: #56F078;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: left;
+  margin-left: 1%;
+  border-radius: 50%;
+}
+
+.circulo {
+  background-color: #DCDDDF;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  /* justify-content: left; */
+  align-items: flex-start;
+  margin-right: 19px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
