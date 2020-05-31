@@ -8,8 +8,8 @@ function Compras() {
         <div className="container">
           <div className="tabs">
             <div className="tab-2">
-              <label for="tab2-1">Atual</label>
-              <input id="tab2-1" name="tabs-two" type="radio" checked="checked" />
+              <label htmlFor="tab2-1">Atual</label>
+              <input id="tab2-1" name="tabs-two" type="radio" defaultChecked/>
               <div>
                 <h4>30/05 - Amazon</h4>                
                 <div className="circulo-verde"></div>
@@ -21,7 +21,7 @@ function Compras() {
               </div>
             </div>
             <div className="tab-2">
-              <label for="tab2-2">Futuras</label>
+              <label htmlFor="tab2-2">Futuras</label>
               <input id="tab2-2" name="tabs-two" type="radio" />
               <div>
               <h4>30/06 - Amazon</h4>                
