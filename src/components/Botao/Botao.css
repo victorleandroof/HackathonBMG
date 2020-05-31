@@ -1,0 +1,24 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao {
+  background: transparent linear-gradient(94deg, #F89D1B 0%, #F2831F 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 30px;
+  opacity: 1;
+  width: 300px;
+  height: 46px;
+}
+
+.botao-text {
+  text-align: center;
+  font: Bold 13px/14px Comfortaa;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin: 15px;
+}

@@ -1,0 +1,9 @@
+.acoes-bmg {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  text-align: justify;  
+  height: 30%; 
+  margin-left: 40px;
+}
