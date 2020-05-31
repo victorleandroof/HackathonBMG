@@ -1,39 +1,25 @@
 import React from 'react';
 import {
-    BarChart, Bar
+  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip
 } from 'recharts';
 
-function Grafico(data,index) {
-    const fill = ['#6e5ca6','#26c4e1','#fa6eb5']
-    const dataChart = [                                                                                                                                                                                                                         
-        {
-          name: 'Page A', uv: 4000
-        },
-        {
-          name: 'Page B', uv: 3000
-        },
-        {
-          name: 'Page C', uv: 2000
-        },
-        {
-          name: 'Page D', uv: 2780
-        },
-        {
-          name: 'Page E', uv: 1890
-        },
-        {
-          name: 'Page F', uv: 2390
-        },
-        {
-          name: 'Page G', uv: 3490
-        },
-      ];
+
+function Grafico(dataGrafico) {
     return (
         <div className="grafico-container">
-            <p>{data.titulo}</p>
-            <BarChart width={100} height={40} data={dataChart}>
-                <Bar dataKey="uv" fill={fill[1]} />
-            </BarChart>
+            <h1>Americanas</h1>
+            <LineChart
+                      width={500}
+                      height={300}
+                      data={dataGrafico.data}
+                      margin={{top: 5, right: 30, left: 20, bottom: 5,}}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="Data" />
+              <YAxis />
+              <Tooltip />
+              <Line type="monotone" dataKey="Americanas" stroke="#8884d8" dot={false} />
+              <Line type="monotone" dataKey="Poupanca" stroke="#82ca9d" dot={false} />
+            </LineChart>
         </div>
     );
 }

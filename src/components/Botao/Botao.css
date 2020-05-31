@@ -22,3 +22,8 @@
   opacity: 1;
   margin: 15px;
 }
+
+.botao-text a {
+  color: #FFFFFF;
+  text-decoration: none;
+}

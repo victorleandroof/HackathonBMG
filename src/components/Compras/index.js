@@ -1,7 +1,9 @@
 import React from 'react';
 import './Compras.css'
+import CardComprar from '../CardComprar'
 
-function Compras() {
+function Compras(usuarioData) {
+  
   return (
     <div className="center-card">
       <div className="card">
@@ -10,15 +12,7 @@ function Compras() {
             <div className="tab-2">
               <label htmlFor="tab2-1">Atual</label>
               <input id="tab2-1" name="tabs-two" type="radio" defaultChecked/>
-              <div>
-                <h4>30/05 - Amazon</h4>                
-                <div className="circulo-verde"></div>
-                <ul>
-                  <li>Pagamento aprovado</li>
-                  <li className="valor-compra">Valor: R$ 290</li>                
-                  <li className="informação">Mais informação</li>
-                </ul>
-              </div>
+                  <CardComprar />
             </div>
             <div className="tab-2">
               <label htmlFor="tab2-2">Futuras</label>

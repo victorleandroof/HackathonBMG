@@ -25,37 +25,3 @@
 .container {
   padding: 2px 16px;
 }
-
-.valor-compra {
-  color: #F99D1C;
-  margin-top: 10px;
-}
-
-.informação {
-  text-align: left;
-  font: Regular 13px/25px Comfortaa;
-  letter-spacing: 0px;
-  color: #56F078;
-  margin-top: 10%;
-}
-
-.circulo-verde {
-  background-color: #56F078;
-  width: 15px;
-  height: 15px;
-  display: flex;
-  justify-content: left;
-  margin-left: 1%;
-  border-radius: 50%;
-}
-
-.circulo {
-  background-color: #DCDDDF;
-  width: 10px;
-  height: 10px;
-  display: flex;  
-  align-items: flex-start;
-  margin-right: 19px;
-  margin-top: 10px;
-  border-radius: 50%;
-}

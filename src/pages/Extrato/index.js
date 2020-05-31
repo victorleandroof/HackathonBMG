@@ -3,17 +3,18 @@ import Header from '../../components/Header'
 import Dashboard from '../../components/Dashboard'
 import SaldoPontos from '../../components/SaldoPontos'
 import Compras from '../../components/Compras'
-import { ApolloProvider } from 'react-apollo'
-import apolloClient from '../../services/usuario'
+import { getUsuario } from '../../services/usuario'
+
 
 function page() {
+  const usuarioData = getUsuario();
   return (
-    <ApolloProvider client={apolloClient}>
+    <React.Fragment>
         <Header  titulo='Extrato'/>
-        <SaldoPontos />
+        <SaldoPontos usuario={usuarioData}/>
         <Dashboard />
-        <Compras />
-    </ApolloProvider>
+        <Compras usuario={usuarioData}/>
+    </React.Fragment>
   )
 }
 
