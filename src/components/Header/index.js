@@ -1,10 +1,12 @@
 import React from 'react';
-
+import { FaArrowLeft } from 'react-icons/fa';
 import './Header.css'
 
 function Header({titulo}) {
   return (
-  <h1>{titulo}</h1>
+    <div className="header-container">
+        <FaArrowLeft className="back" /><h1>{titulo}</h1>
+    </div>
   );
 }
 
