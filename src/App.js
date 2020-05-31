@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header'
+import SaldoPontos from './components/SaldoPontos'
 
 function App() {
   return (
-    <Header titulo='Extrato' />
+    <div>
+      <Header titulo='Extrato' />
+      <SaldoPontos />
+    </div>
   );
 }
 
