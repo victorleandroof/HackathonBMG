@@ -16,8 +16,8 @@ function Acoes() {
       <Header titulo="Ação" />
       <SaldoPontos usuario={usuarioData}/>
       <Dashboard />      
-      <AcoesBMG titulo="Ação_BMG" conteudo="Lorem ipsum dolor sit, amet consectetur adipisicing elit."/>      
-      <AcoesBMG titulo="Beneficios" conteudo="Lorem ipsum dolor sit, amet consectetur adipisicing elit."/>      
+      <AcoesBMG titulo="Ação_BMG" conteudo="Nunca é tarde demais para começar a investir. O ação_BMG está aqui para te ensinar como investir e poupar seu dinheiro. Você sabia que pode começar a investir com apenas 28 reais? aqui o pouco pode virar muito."/>      
+      <AcoesBMG titulo="Beneficios" conteudo="Se tornar sócio de grandes empresas sem a necessidade de um grande capital. Possibilidade de ganhos maiores com bom gerenciamento de riscos. Diversificação de investimentos."/>      
       <Botao titulo="COMEÇAR INVESTIR"/>
     </React.Fragment>
   )

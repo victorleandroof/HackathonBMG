@@ -5,11 +5,14 @@ html,
 body,
 #root {
     height: 100%;
+    position: absolute;
+    left: 33%;
+    background: #FFFFFF ;
 }
 
 body {
     font: 16px/17px 'Comfortaa', cursive;
-    background: #FFFFFF ;
+    width: 100%;
     color: #333;
     -webkit-font-smoothing: antialiased !important;
 }
