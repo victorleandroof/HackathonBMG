@@ -12,8 +12,7 @@ function Informacao() {
                     <a href="#close" title="Close" className="close"></a>
                 </div>
                     <p>Olá, você já pensou em investir, porém não sabe por onde começar? Então estou aqui para te ajudar justamente com isso. Que tal entrar no mundo das ações? "Mas Duda eu não entendo nada de ações", bem eu recomendo você dar uma olhada no vídeo da Nath Finanças, eu mesma sou uma grande fã</p>
-                    <Botao titulo="ASSISTA AO VÍDEO" url="https://youtu.be/IBAqRvQpMfY"/>
-                    <div className=" flex-close arrow"></div>
+                    <Botao titulo="ASSISTA AO VÍDEO" url="https://youtu.be/IBAqRvQpMfY"/>                    
                 </div>
             </div>
         </div>
