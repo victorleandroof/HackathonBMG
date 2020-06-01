@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-.info{
+.info {
     display: flex;
-    justify-content:flex-end;    
-    color:#F47920;
+    justify-content: flex-end;
+    color: #F47920;
     margin-right: 40px;
     margin-top: 40px;
     font-size: 20px;
@@ -35,7 +35,7 @@
 
 .modalDialog>div {
     max-width: 800px;
-    width: 90%;
+    width: 20%;
     position: relative;
     margin: 10% auto;
     padding: 20px;
@@ -49,17 +49,10 @@
 
 .flex-close {
     display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-flow: column wrap;
-   align-content: flex-end;
-}
-.arrow{
-    background: transparent url('../../assets/images/arrow.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;    
-    text-align: center;
-    width: 34px;
-    height: 34px;   
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: flex-end;
 }
 
 .close {
