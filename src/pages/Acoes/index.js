@@ -24,8 +24,8 @@ function Acoes() {
       <SaldoPontos usuario={usuarioData}/>
       <Dashboard />
       <Informacao/>      
-      <AcoesBMG titulo="Ação_BMG" conteudo="Nunca é tarde demais para começar a investir. O ação_BMG está aqui para te ensinar como investir e poupar seu dinheiro. Você sabia que pode começar a investir com apenas 28 reais? aqui o pouco pode virar muito."/>      
-      <AcoesBMG titulo="Beneficios" conteudo="Se tornar sócio de grandes empresas sem a necessidade de um grande capital. Possibilidade de ganhos maiores com bom gerenciamento de riscos. Diversificação de investimentos."/>      
+      <AcoesBMG titulo="Ação_BMG" conteudo="Nunca é tarde demais para começar a investir. O ação_BMG está aqui para te ensinar como investir e poupar seu dinheiro. Você sabia que pode começar a investir com apenas 28 reais? Aqui o pouco pode virar muito!"/>      
+      <AcoesBMG titulo="Beneficios" conteudo="Se tornar sócio de grandes empresas sem a necessidade de um grande capital. Possibilidade de ganhos maiores com bom gerenciamento de riscos. Diversificação de investimentos."/>      
       <Botao titulo="COMEÇAR INVESTIR"/>
     </React.Fragment>
   )
