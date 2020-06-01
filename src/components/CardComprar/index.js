@@ -10,7 +10,7 @@ function CardComprar(compra,data) {
             <ul>
                 <li>Pagamento aprovado</li>
                 <li className="valor-compra">Valor: R$  128,00</li>                
-                <li className="informação">Mais informação</li>
+                <li className="informação">Mais informações</li>
             </ul>
     </div>
    );

@@ -23,7 +23,7 @@ function Compras(usuarioData) {
                 <ul>
                   <li>Pagamento futuro</li>
                   <li className="valor-compra">Valor: R$ 290</li>
-                  <li className="informação">Mais informação</li>
+                  <li className="informação">Mais informações</li>
                 </ul>
               </div>
             </div>
