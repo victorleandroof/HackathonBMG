@@ -8,9 +8,9 @@ function Dashboard() {
   const graficoData = getProdutos();
   return (
       <div className="dashboard-container">
-          <h1>Ações_BMG</h1>
+          <h1>Ação_BMG</h1>
           <Grafico data={graficoData}/>
-          <p><span className="text-blue">Ações = 76,50%</span> <span className="text-grean ml-20">Poupança = 3,25%</span></p>
+          <p><span className="text-blue">Ação = 76,50%</span> <span className="text-grean ml-20">Poupança = 3,25%</span></p>
           <div className="right"><a href="/acoes"><FaArrowRight/></a></div>
       </div>
   );
