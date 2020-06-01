@@ -5,7 +5,7 @@ import './Header.css'
 function Header({titulo}) {
   return (
     <div className="header-container">
-        <FaArrowLeft className="back" /><h1>{titulo}</h1>
+        <a href="/"><FaArrowLeft className="back" /></a><h1>{titulo}</h1>
     </div>
   );
 }
